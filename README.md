@@ -29,18 +29,21 @@ A moderately basic bitboard-based chess engine featuring **alpha-beta pruning** 
   ```bash
   sudo apt-get update
   sudo apt-get install mingw-w64
-```
+
 - then run *make* to compile the engine.
+
+
+
 ## 🎮 Usage with Arena (GUI)
 
 [Arena](http://www.playwitharena.de/) is a free, user-friendly chess GUI that supports UCI engines:
 
 1. Install Arena on your system (Windows or via Wine on Linux).
 2. Add the engine (`funnyEngine` or `funnyEngine.exe`) via:
-   **Engine → Install New Engine** in Arena.
+**Engine → Install New Engine** in Arena.
 3. ♟️ **Play**: Configure settings, select this engine in Arena, and start a new game!
 
----
+
 
 ## 🤝 Contributing
 
