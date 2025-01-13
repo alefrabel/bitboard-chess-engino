@@ -107,6 +107,6 @@ Arena (http://www.playwitharena.de/) is a free, user-friendly chess GUI supporti
 - Bug Reports: Open issues or pull requests if you see any problems or have ideas.
 
 -------------------------------------------------------------------------------
-🏁 Have fun playing with funnyEngine! 🏁
+# 🏁 Have fun playing with funnyEngine! 🏁
 
 
