@@ -13,6 +13,7 @@ The engine follows the UCI (Universal Chess Interface) protocol, making it compa
 ## ⚙️ COMPILATION
 
 ### 🐧 UNIX / LINUX:
+Ensure you have gcc compiler.
 ```bash
 make        # For release build
 ```
@@ -24,15 +25,17 @@ make debug  # For debug build
 1. Install MinGW-w64 (https://www.mingw-w64.org/) or use MSYS2 MinGW.
 2. In a terminal:
    ```bash
-   mingw32-make
+   mingw32-make WINDOWS_BUILD=1 
+   ```
+   ```bash
+   mingw32-make WINDOWS_BUILD=1 debug  
    ```
 4. This produces an .exe file supported by Arena on Windows.
 
-### 📝 Note:
-- On Debian/Ubuntu, you can install MinGW-w64 by:
+### 📝 Note for WSL users:
+- If you want to uplaod your engine to Arena for Windows use:
 ```bash
-sudo apt-get update
-sudo apt-get install mingw-w64
+make WINDOWS_BUILD=1 
 ```
 Then run make to compile the engine.
 
