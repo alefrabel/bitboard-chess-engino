@@ -17,11 +17,11 @@ The engine follows the UCI (Universal Chess Interface) protocol, making it compa
 2. **Run: make**
 
 ### WINDOWS (MinGW-w64):
-1. Install MinGW-w64 (https://www.mingw-w64.org/) or use MSYS2 MinGW.
-2. In a terminal:
+1. **Install MinGW-w64 (https://www.mingw-w64.org/) or use MSYS2 MinGW.**
+2. **In a terminal:**
    - mingw32-make
    - or: mingw32-make debug
-3. This produces an .exe file supported by Arena on Windows.
+3. **This produces an .exe file supported by Arena on Windows.**
 
 ### Note:
 - On Debian/Ubuntu, you can install MinGW-w64 by:
@@ -34,7 +34,7 @@ The engine follows the UCI (Universal Chess Interface) protocol, making it compa
 
 You can also interact with the engine in a terminal by typing UCI commands:
 
-1) uci
+1. **uci**
    - Asks the engine to identify itself and list UCI options (if any).
 
 2) isready
