@@ -97,9 +97,9 @@ Repeat by updating the position with each move. This lets you alternate moves wi
 
 Arena (http://www.playwitharena.de/) is a free, user-friendly chess GUI supporting UCI:
 
-1. **Install Arena (Windows or via Wine on Linux).**
-2. **In Arena, add the engine (funnyEngine or funnyEngine.exe) via “Engine → Install New Engine”.**
-3. **Configure and start a new game against the engine.**
+1. Install Arena (Windows or via Wine on Linux).
+2. In Arena, add the engine (funnyEngine or funnyEngine.exe) via “Engine → Install New Engine”.
+3. Configure and start a new game against the engine.
 
 -------------------------------------------------------------------------------
 ## 🤝 CONTRIBUTING
