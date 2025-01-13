@@ -28,6 +28,7 @@ The engine follows the UCI (Universal Chess Interface) protocol, making it compa
 ```bash
 sudo apt-get update
 sudo apt-get install mingw-w64
+```
 Then run make to compile the engine.
 
 -------------------------------------------------------------------------------
