@@ -4,12 +4,12 @@ RELEASE_FLAGS = $(COMMON_FLAGS) -O3
 DEBUG_FLAGS = $(COMMON_FLAGS) -g
 
 SRC = funnyEngine.c
-UNIX_TARGET = funnyEngine
+BASE_TARGET = funnyEngine
 
-ifeq ($(OS),Windows_NT)
-    TARGET = $(UNIX_TARGET).exe
+ifdef WINDOWS_BUILD
+    TARGET = $(BASE_TARGET).exe
 else
-    TARGET = $(UNIX_TARGET)
+    TARGET = $(BASE_TARGET)
 endif
 
 all: release
