@@ -37,7 +37,7 @@ You can also interact with the engine in a terminal by typing UCI commands:
 1. **uci**
    - Asks the engine to identify itself and list UCI options (if any).
 
-2 **isready**
+2. **isready**
    - The engine responds “readyok” once it’s ready.
 
 3. **position startpos**
