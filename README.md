@@ -13,7 +13,7 @@ The engine follows the UCI (Universal Chess Interface) protocol, making it compa
 ## ⚙️ COMPILATION
 
 ### 🐧 UNIX / LINUX:
-1. **Ensure you have a C compiler (e.g., GCC).**
+1. Ensure you have a C compiler (e.g., GCC).
 2. **Run: make, make debug or make clean**
 
 ### 🪟 WINDOWS (MinGW-w64):
